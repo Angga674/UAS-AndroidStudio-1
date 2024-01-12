@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="50dp"
+            android:text="Mr. Bean Holiday"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="49dp"
+            app:srcCompat="@drawable/menu_movie" />
+
+    </androidx.cardview.widget.CardView>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="99dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="397dp"
+        android:text="Sinopsis :"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="425dp"
+        android:justificationMode="inter_word"
+        android:text="Mr. Bean memenangkan tiket liburan ke Cannes, dan tanpa sadar, telah memisahkan seorang bocah dari ayahnya. Dengan segala cara, kini ia berusaha untuk membantu keduanya agar dapat bersama kembali."
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

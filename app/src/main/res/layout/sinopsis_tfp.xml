@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="50dp"
+            android:text="The Family Plan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="49dp"
+            app:srcCompat="@drawable/menu_movie" />
+
+    </androidx.cardview.widget.CardView>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="99dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="397dp"
+        android:text="Sinopsis :"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="425dp"
+        android:justificationMode="inter_word"
+        android:text="Family Plan 2023, merupakan film yang sangat masih hangat di tahun ini. Film ini merupakan kisah komedi aksi yang disutradarai oleh Simon Cellan Jones dan dibintangi oleh Mark Wahlberg dan Michelle Monaghan. Film ini menceritakan tentang seorang ayah yang merupakan mantan pembunuh elite pemerintah. Ia kemudian harus menghadapi keadaan dimana keluarganya menjadi buruan sekelompok misterius.
+
+ Kisah Seorang Ayah Mantan Pembunuh Elite Pemerintahan, Wajib Ditonton!"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
